@@ -6754,4 +6754,9 @@ button.close {
     display: none !important;
   }
 }
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
 /*# sourceMappingURL=bootstrap.css.map */

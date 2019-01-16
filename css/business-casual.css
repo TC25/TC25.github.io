@@ -186,3 +186,7 @@ footer p {
         clear: both;
     }
 }
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
