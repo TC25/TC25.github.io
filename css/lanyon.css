@@ -221,7 +221,7 @@ a.sidebar-nav-item:focus {
   position: absolute;
   top:  2.8rem;
   left: 1rem;
-  width: 5.8rem;
+  width: 6rem;
   display: block;
   padding: .25rem .75rem;
   color: black;
@@ -246,7 +246,7 @@ a.sidebar-nav-item:focus {
      font-style: normal;
      font-size: 16pt;
      font-weight: bold;
-  content: "MENU";
+  content: " MENU";
   right: 0em;
   top: .2em;
 }
