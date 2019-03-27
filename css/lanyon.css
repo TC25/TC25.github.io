@@ -150,8 +150,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -12.3rem;
-  width: 12.3rem;
+  left: -14rem;
+  width: 14rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -198,8 +198,10 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-item {
+    padding: 1.5rem;
   }
   .sidebar-nav-item {
+    padding-left:  1.5rem;
   }
 }
 
@@ -215,7 +217,7 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  2.8rem;
+  top:  0.8rem;
   left: 1rem;
   width: 6.5rem;
   display: block;
@@ -309,9 +311,9 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(12.3rem);
-      -ms-transform: translateX(12.3rem);
-          transform: translateX(12.3rem);
+  -webkit-transform: translateX(14rem);
+      -ms-transform: translateX(14rem);
+          transform: translateX(14rem);
 }
 
 
@@ -433,7 +435,7 @@ a.pagination-item:hover {
 
 .layout-reverse .sidebar {
   left: auto;
-  right: -12.3rem;
+  right: -14rem;
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
@@ -443,9 +445,9 @@ a.pagination-item:hover {
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,
 .layout-reverse #sidebar-checkbox:checked ~ .wrap,
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(-12.3rem);
-      -ms-transform: translateX(-12.3rem);
-          transform: translateX(-12.3rem);
+  -webkit-transform: translateX(-14rem);
+      -ms-transform: translateX(-14rem);
+          transform: translateX(-14rem);
 }
 
 
