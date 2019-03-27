@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 48em) {
   .masthead-title {
-    text-align: center;
+    text-align: left;
   }
   .masthead-title small {
     display: none;
@@ -217,9 +217,9 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  0.7rem;
+  top:  .7rem;
   left: 1rem;
-  width: 2.5rem;
+  width: 6rem;
   display: block;
   padding: .25rem .75rem;
   color: black;
@@ -244,9 +244,20 @@ a.sidebar-nav-item:focus {
      font-style: normal;
      font-size: 16pt;
      font-weight: bold;
-  content: "";
+  content: " MENU";
   right: 0em;
   top: .2em;
+}
+
+
+@media (max-width: 48em) {
+  .sidebar-toggle {
+    width: 2.5rem;
+  }
+  .sidebar-toggle:after{
+    content: "";
+  }
+  
 }
 
 
