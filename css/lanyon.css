@@ -244,7 +244,7 @@ a.sidebar-nav-item:focus {
      font-style: normal;
      font-size: 16pt;
      font-weight: bold;
-  content: " MENU";
+  content: "MENU";
   right: 0em;
   top: .2em;
 }
