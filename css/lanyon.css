@@ -269,6 +269,7 @@ a.sidebar-nav-item:focus {
 }
 
 
+
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
