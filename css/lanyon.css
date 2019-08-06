@@ -268,7 +268,9 @@ a.sidebar-nav-item:focus {
   
 }
 
-
+b.thick {
+  font-weight: 500;
+}
 
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
